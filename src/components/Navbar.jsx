@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useLocation, NavLink } from 'react-router-dom';
+import { useLocation, NavLink, Link } from 'react-router-dom';
 import { IoClose, IoMenu } from "react-icons/io5";
 import { useTranslation } from 'react-i18next';
 import logo from '../assets/logo.png';
@@ -66,10 +66,10 @@ export const Navbar = ({ children }) => {
                         </NavLink>
                     </ul>
                     <div className='flex gap-3 sm:gap-x-2 xl:gap-x-3'>
-                        <button onClick={() => window.location.href = "/register"}
-                            className='text-white xl:text-[18px] text-[16px] sm:text-[14px] py-2 sm:py-[2px] bg-[#FB923C] w-[100px] xl:w-[100px] sm:w-[70px] md:w-[80px] font-semibold sm:font-medium sm:rounded-sm md:rounded-md rounded-md'>
+                        <Link to={"/register"}
+                            className='text-white flex items-center justify-center xl:text-[18px] text-[16px] sm:text-[14px] py-2 sm:py-[2px] bg-[#FB923C] w-[100px] xl:w-[100px] sm:w-[70px] md:w-[80px] font-semibold sm:font-medium sm:rounded-sm md:rounded-md rounded-md'>
                             {t('navbar.login')}
-                        </button>
+                        </Link>
                         <div className='relative flex flex-col items-center justify-center md:py-1 w-[120px] xl:w-[120px] sm:w-[80px] gap-x-2 sm:gap-x-1 cursor-pointer border-2 border-white rounded-md'
                             onClick={() => setIsDropdownFlag(!isDropdownFlag)}>
                             <div className='flex items-center justify-center xl:gap-x-2 w-[120px] xl:w-[120px] sm:w-[80px] px-2 sm:px-[2px] cursor-pointer '>

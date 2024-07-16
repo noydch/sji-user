@@ -64,8 +64,9 @@ export const Navbar = ({ children }) => {
                         <NavLink to={'/login'} className='sm:hidden px-3 hover:bg-[#005887] w-full py-2 duration-300'>
                             {t('navbar.logout')}
                         </NavLink>
+                        {/*  */}
                     </ul>
-                    <div className='flex gap-3 sm:gap-x-2 xl:gap-x-3'>
+                    <div className='flex gap-3 sm:gap-x-2 xl:gap-x-3 '>
                         <Link to={"/register"}
                             className='text-white flex items-center justify-center xl:text-[18px] text-[16px] sm:text-[14px] py-2 sm:py-[2px] bg-[#FB923C] w-[100px] xl:w-[100px] sm:w-[70px] md:w-[80px] font-semibold sm:font-medium sm:rounded-sm md:rounded-md rounded-md'>
                             {t('navbar.login')}

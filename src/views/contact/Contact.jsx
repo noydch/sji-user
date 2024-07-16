@@ -12,12 +12,12 @@ export const Contact = () => {
                     <img src={bgOverlay}
                         className=" hidden w-full sm:block sm:h-screen md:h-[400px] object-cover absolute"
                     />
-                    <div className=' pt-[70px] sm:pt-[80px] relative container mx-auto h-full flex justify-center items-center sm:max-w-[620px] max-w-[330px] lg:max-w-[900px] xl:max-w-6xl text-white  z-50'>
+                    <div className=' pt-[70px] sm:pt-[80px] relative container mx-auto h-full flex justify-center items-center sm:max-w-[620px] max-w-[340px] lg:max-w-[900px] xl:max-w-6xl text-white  z-50'>
                         <h1 className=' text-[34px] py-3 sm:pt-0 sm:pb-0 mt-5 sm:mt-0 md:text-[70px] font-bold'>ຕິດຕໍ່ເຮົາ</h1>
                     </div>
                 </div>
 
-                <div className=' mt-10 mb-32 bg-white container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
+                <div className=' mt-10 mb-32 bg-white container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
                     <div className=' flex relative'>
                         <div className=' hidden md:block xl:w-full'>
                             <h1 className=' text-[32px] font-bold text-orange-500'>ຂັ້ນຕອນຕໍ່ໄປຈະເປັນ <br className=' xl:hidden' />ແນວໃດ?</h1>

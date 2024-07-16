@@ -122,9 +122,9 @@ export const AnalysisDetailCompany = () => {
                     item.companyName == cName.company && (
                         <div key={index} className=' z-0 w-full relative before:absolute before:bg-[#003049] before:-z-[1] before:w-full md:before:h-[350px] sm:before:h-[330px] before:h-[350px]'>
                             <img src={bgOverlay2} className="w-full hidden md:block h-[350px] bg-bottom bg-cover absolute" />
-                            <div className='pt-[70px] relative container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                            <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                                 <div className=' py-55 md:mt- sm:0 md:h-[280px] h-full md:relative flex flex-col items-center justify-center md:justify-end'>
-                                    <div className='mb-5 md:mt-0 xl:absolute w-full xl:top-[50%] md:mb-5 xl:-translate-y-1/2 sm:left-2 flex sm:flex-row justify-center items-center gap-x-4 sm:text-[50px] text-[#F97316] font-bold'>
+                                    <div className='mb-5 mt-3 sm:mt-0 md:mt-0 xl:absolute w-full xl:top-[50%] md:mb-5 xl:-translate-y-1/2 sm:left-2 flex sm:flex-row justify-center items-center gap-x-4 sm:text-[50px] text-[#F97316] font-bold'>
                                         <div className=' rounded-full bg-white p-4 h-[55px] w-[55px] sm:h-[80px] sm:w-[80px] flex justify-center items-center'>
                                             <img src={item.picture} alt=""
                                                 className=' w-[50px] sm:w-[70px] '
@@ -135,12 +135,12 @@ export const AnalysisDetailCompany = () => {
                                         </h1>
                                     </div>
                                     <div className=' mb-5 flex items-center xl:flex-row md:flex-col flex-col gap-x-3'>
-                                        <div className=' w-[350px] md:w-[450px] relative md:mb-5 xl:mb-0'>
+                                        <div className=' w-full md:w-[450px] relative md:mb-5 xl:mb-0'>
                                             <div className=' absolute top-[50%] -translate-y-1/2 left-1 text-[20px] text-[#F97316] border-[1.5px] border-[#F97316] w-[26px] h-[26px] flex items-center justify-center rounded-full '>
                                                 <IoSearchOutline />
                                             </div>
                                             <input type="text"
-                                                className=' w-[350px] md:w-[450px] py-1 h-[35px] rounded-md sm:text-[18px] text-[16px] text-black pl-9 outline-none placeholder:text-[14px]'
+                                                className=' w-full md:w-[450px] py-1 h-[35px] rounded-md sm:text-[18px] text-[16px] text-black pl-9 outline-none placeholder:text-[14px]'
                                                 placeholder='ຄົ້ນຫາບໍລິສັດ...'
                                             />
                                             <button className=' bg-[#F97316]  h-[35px] px-5 rounded-r-md right-0 absolute'>ຄົ້ນຫາ</button>
@@ -170,19 +170,19 @@ export const AnalysisDetailCompany = () => {
                                 }
 
                                 {
-                                    showAnalysis === "ງົບການເງິນ" && <div className=' h-full w-full bg-white mb-20'>
+                                    showAnalysis === "ງົບການເງິນ" && <div className=' h-full w-full bg-white mb-20 mt-10 sm:mt-0'>
                                         <div className=' flex items-center justify-between md:justify-center flex-col sm:flex-row sm:mt-10 sm:px-10'>
                                             <div className=' flex items-center gap-x-3 mb-3'>
                                                 <button onClick={() => setShowRecieve('Income Statement')}
-                                                    className={` sm:h-[35px] py-1 sm:px-5 md:w-[200px] px-2 sm:text-[18px] text-[16px] font-medium rounded-md ${showRecieve == "Income Statement" ? 'bg-[#f97316]' : 'border-2 text-[#f97316] border-[#f97316]'}`}>
+                                                    className={` sm:h-[35px] py-1 sm:px-5 md:px-2 md:w-[200px] px-2 sm:text-[18px] text-[16px] font-medium rounded-md ${showRecieve == "Income Statement" ? 'bg-[#f97316]' : 'border-2 text-[#f97316] border-[#f97316]'}`}>
                                                     Income Statement
                                                 </button>
                                                 <button onClick={() => setShowRecieve('Balance Sheet')}
-                                                    className={` sm:h-[35px] py-1 sm:px-5 md:w-[200px] px-2 sm:text-[18px] text-[16px] font-medium rounded-md ${showRecieve == "Balance Sheet" ? 'bg-[#f97316]' : ' border-2 text-[#f97316] border-[#f97316]'}`}>
+                                                    className={` sm:h-[35px] py-1 sm:px-5 md:px-2 md:w-[200px] px-2 sm:text-[18px] text-[16px] font-medium rounded-md ${showRecieve == "Balance Sheet" ? 'bg-[#f97316]' : ' border-2 text-[#f97316] border-[#f97316]'}`}>
                                                     Balance Sheet
                                                 </button>
                                                 <button onClick={() => setShowRecieve('Cash Flow')}
-                                                    className={` sm:h-[35px] py-1 sm:px-5 md:w-[200px] px-2 sm:text-[18px] text-[16px] font-medium rounded-md ${showRecieve == "Cash Flow" ? 'bg-[#f97316]' : ' border-2 text-[#f97316] border-[#f97316]'}`}>
+                                                    className={` sm:h-[35px] py-1 sm:px-5 md:px-2 md:w-[200px] px-2 sm:text-[18px] text-[16px] font-medium rounded-md ${showRecieve == "Cash Flow" ? 'bg-[#f97316]' : ' border-2 text-[#f97316] border-[#f97316]'}`}>
                                                     Cash Flow
                                                 </button>
                                             </div>
@@ -1083,8 +1083,8 @@ export const AnalysisDetailCompany = () => {
                                 }
 
                                 {
-                                    showAnalysis === "ອັດຕາສ່ວນທາງການເງິນ ແລະເງິນປັນຜົນ" && <div className=' h-full w-full bg-white mb-20'>
-                                        <div className='mt-10 px-10'>
+                                    showAnalysis === "ອັດຕາສ່ວນທາງການເງິນ ແລະເງິນປັນຜົນ" && <div className=' h-full w-full  bg-white mb-20'>
+                                        <div className='mt-10 sm:mt-16 sm:px-5 md:px-10'>
                                             <AnalysisFinancial />
                                         </div>
 

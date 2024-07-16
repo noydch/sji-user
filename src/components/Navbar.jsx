@@ -44,7 +44,7 @@ export const Navbar = ({ children }) => {
     return (
         <nav>
             <div className='bg-[#003049] fixed z-[1000] w-full shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]'>
-                <div className='flex items-center justify-between container mx-auto max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] 
+                <div className='flex items-center justify-between container mx-auto max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] 
                 xl:max-w-6xl 2xl:max-w-7xl h-[70px] sm:h-[60px] xl:h-[70px]'>
                     <NavLink to={'/'}>
                         <img src={logo} alt="logo" className='w-12 sm:w-10 xl:w-14 2xl:w-[65px]' />
@@ -68,7 +68,7 @@ export const Navbar = ({ children }) => {
                     </ul>
                     <div className='flex gap-x-[6px] sm:gap-x-2 xl:gap-x-3 '>
                         <Link to={"/register"}
-                            className='text-white flex items-center justify-center xl:text-[18px] text-[14px] font-normal sm:text-[14px] py-2 sm:py-[2px] bg-[#FB923C] w-[90px] xl:w-[100px] sm:w-[70px] md:w-[80px] sm:font-medium sm:rounded-sm md:rounded-md rounded-md'>
+                            className='text-white flex items-center justify-center xl:text-[18px] text-[14px] font-normal sm:text-[14px] py-2 sm:py-[2px] bg-[#FB923C] w-[90px] xl:w-[100px] sm:w-[70px] md:w-[80px] sm:font-medium sm:rounded md:rounded-md rounded-md'>
                             {t('navbar.login')}
                         </Link>
                         <div className='relative flex flex-col items-center justify-center md:py-1 w-[100px] xl:w-[120px] sm:w-[80px] gap-x-2 sm:gap-x-1 cursor-pointer border-2 border-white rounded-md'

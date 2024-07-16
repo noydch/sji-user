@@ -34,7 +34,7 @@ export const Course = () => {
                     <img src={bgOverlay}
                         className="xl:block hidden w-full xl:h-[500px] xl:object-cover h-screen absolute"
                     />
-                    <div className=' pt-[70px] relative container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                    <div className=' pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                         <Link to={"/ourService"} className='absolute hidden top-32 md:top-24 left-2 md:flex cursor-pointer items-center hover:text-[#F97316]'>
                             <ImArrowLeft className=' text-[30px] mr-5' />
                             <h1 className='text-[40px]  sm:text-[50px] lg:text-[40px] font-bold'>ກັບຄືນ</h1>
@@ -53,7 +53,7 @@ export const Course = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' h-full bg-white container mx-auto max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
+                <div className=' h-full bg-white container mx-auto max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
                     <div className=' p-4 md:border-2 mt-10 rounded-lg '>
                         <ul className={`grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 sm:gap-x-6 gap-y-10 h-fit ${currentIndex < 6 || currentIndex < 10 ? 'place-items-center' : ''}`}>
                             {dataCourse.slice(currentIndex, currentIndex + itemPerpage).map((item, index) => (

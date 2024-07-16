@@ -17,7 +17,7 @@ export const Analysiss = () => {
         <Navbar>
             <div className=' z-0 w-full relative before:absolute before:bg-[#003049] before:-z-[1] before:w-full sm:before:h-[350px] before:h-[200px]'>
                 <img src={bgOverlay2} className="w-full h-[350px] bg-bottom bg-cover absolute hidden sm:block" />
-                <div className='pt-[70px] relative container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                     <div className=' h-[150px] flex items-center justify-center sm:h-[280px] relative'>
                         <h1 className='text-[40px] sm:absolute bottom-4 left-2 flex sm:text-[50px] text-[#F97316] mb-3 font-bold'>ບົດວິເຄາະ</h1>
                     </div>

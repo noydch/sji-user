@@ -18,7 +18,7 @@ export const OurService = () => {
                     <img src={bgOverlay}
                         className=" hidden xl:block xl:h-full w-full h-screen xl:object-cover absolute"
                     />
-                    <div className=' pt-[70px] relative container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                    <div className=' pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                         <div className=' grid place-items-center xl:gap-x-[120px] xl:items-center sm:grid-cols-2 xl:grid-cols-12 h-full mt-5 pb-10 xl:py-5 md:py-0 md:pb-10'>
                             <div className=' xl:col-span-8 '>
                                 <h1 className=' text-[34px] lg:text-[50px] text-[#F97316] mb-3 font-bold md:mt-10'>
@@ -38,7 +38,7 @@ export const OurService = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' mt-10 container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
+                <div className=' mt-10 container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
                     <div className=' md:mb-20 mb-5 sm:mb-10 flex flex-col items-center'>
                         <h1 className='px-2 border-b-[4px] border-orange-400 text-[24px] sm:text-[34px] md:text-[50px] font-extrabold'>
                             {t('OurService.title.title')}

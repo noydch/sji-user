@@ -114,7 +114,7 @@ export const AnalysisDetail = () => {
                 dataCountries.map((item, index) => (
                     item.id == cid.id && <div className=' z-0 w-full relative before:absolute before:bg-[#003049] before:-z-[1] before:w-full md:before:h-[350px] before:h-[200px]'>
                         <img src={bgOverlay2} className="w-full hidden md:block h-[350px] bg-bottom bg-cover absolute" />
-                        <div className='pt-[70px] relative container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                        <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                             <div className=' h-[150px] md:h-[300px] relative w-full flex items-center sm:justify-start'>
                                 <div className=' sm:absolute w-full top-8 sm:bottom-4 xl:bottom-10 xl:items-end left-2 flex items-center md:justify-start justify-center gap-x-4 sm:text-[50px] text-[#F97316] mb-3 font-bold'>
                                     <div className=' rounded-full border-2 md:w-[70px] w-[60px]'>

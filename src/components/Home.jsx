@@ -34,7 +34,7 @@ export const Home = () => {
             <div className='md:bg-[#003049] bg-[#002133]'>
                 <div className='sm:h-[700px] h-full xl:h-screen z-0 w-full relative before:absolute before:bg-[#002133] before:-z-[1] before:w-full before:h-[300px] sm:before:bg-[#002133] sm:before:h-[700px] xl:before:h-screen'>
                     <img src={bgOverlay} className="sm:w-full xl:h-screen sm:h-full sm:block absolute hidden" />
-                    <div className='pt-[70px] mb-5 lg:mb-0 relative container mx-auto h-full max-w-[330px] sm:max-w-[620px] 
+                    <div className='pt-[70px] mb-5 lg:mb-0 relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] 
                     lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                         <div className='flex  md:mt-5 items-center justify-between'>
                             <div className=' sm:flex sm:flex-col xl:flex-[3] lg:w-full sm:items-start sm:gap-y-4 sm:flex-[2]'>
@@ -59,7 +59,7 @@ export const Home = () => {
                     </div>
                 </div>
                 <div className='w-full bg-white pb-10'>
-                    <div className='container mx-auto h-full max-w-[330px] sm:max-w-[620px] 
+                    <div className='container mx-auto h-full max-w-[340px] sm:max-w-[620px] 
                     lg:max-w-[900px] xl:max-w-6xl'>
                         <div className='flex justify-center'>
                             <h2 className='text-[28px] sm:text-[34px] text-[#1F2937] font-extrabold pt-7 pb-0'>

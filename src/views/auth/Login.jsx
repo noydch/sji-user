@@ -41,7 +41,7 @@ export const Login = () => {
             console.log('Form submitted', formData);
         }
     }
-
+    // ll
     return (
         <div className='grid md:grid-cols-12 grid-cols-1'>
             <div className='col-span-8 md:col-span-7 w-full md:block hidden'>

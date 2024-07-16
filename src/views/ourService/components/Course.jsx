@@ -39,7 +39,7 @@ export const Course = () => {
                             <ImArrowLeft className=' text-[30px] mr-5' />
                             <h1 className='text-[40px]  sm:text-[50px] lg:text-[40px] font-bold'>ກັບຄືນ</h1>
                         </Link>
-                        <div className=' grid place-items-center xl:grid-cols-3 2xl:grid-cols-2 md:grid-cols-2 items-center lg:mt-8 h-full pb-10 xl:py-5 md:py-0 md:pb-10'>
+                        <div className=' grid place-items-center xl:grid-cols-3 2xl:grid-cols-3 md:grid-cols-2 items-center lg:mt-8 h-full pb-10 xl:py-5 md:py-0 md:pb-10'>
                             <div className=' xl:col-span-2 '>
                                 <h1 className=' text-[34px] sm:text-[45px] text-[#F97316] mb-3 font-bold md:mt-10'>ບໍລິການຂອງພວກເຮົາ</h1>
                                 <p className=' sm:text-[15px] text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa temporibus <br /> facere quam sequi <br /> adipisci voluptatum illo velit in quod nulla minus vitae, nam rem ipsum eaque consequatur assumenda explicabo!</p>

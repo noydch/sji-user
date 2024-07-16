@@ -13,7 +13,7 @@ export const OurService = () => {
     return (
         <Navbar>
             <div>
-                <div className=' h-full md:h-[400px] xl:h-full z-0 w-full relative before:absolute md:before:bg-[#002133] before:-z-[1] before:w-full md:before:h-[400px] before:h-full
+                <div className=' h-full md:h-[400px] xl:h-full z-0 w-full relative before:absolute md:before:bg-[#002133]  before:-z-[1] before:w-full md:before:h-[400px] before:h-full
                     before:bg-[#002133] xl:before:h-full'>
                     <img src={bgOverlay}
                         className=" hidden xl:block xl:h-full w-full h-screen xl:object-cover absolute"

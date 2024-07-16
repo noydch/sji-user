@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 export const ExampleService = () => {
     const { t } = useTranslation()
     return (
-        <div className=' w-full bg-white mb-32 sm:mb-20 container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
+        <div className=' w-full bg-white mb-32 sm:mb-20 container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
             <div className=' flex items-center gap-x-5 justify-between mb-5'>
                 <h1 className=' md:text-[35px] font-bold text-[20px] lg:leading-[1.2]'>
                     {t('OurService.example.title')}

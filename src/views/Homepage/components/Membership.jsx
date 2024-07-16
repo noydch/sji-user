@@ -35,7 +35,7 @@ export const Membership = () => {
                     <div className='h-full md:h-full z-0 w-full relative before:absolute sm:before:bg-[#003049]  before:-z-[1] before:w-full sm:before:h-screen before:h-full
                     before:bg-[#002133] md:before:h-full'>
                         <img src={bgOverlay} className="w-full h-full absolute md:block hidden" />
-                        <div className='pt-[70px] lg:pb-20 relative flex flex-col items-center justify-center py-20 md:pb-5 container h-full mx-auto max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] text-white z-50'>
+                        <div className='pt-[70px] lg:pb-20 relative flex flex-col items-center justify-center py-20 md:pb-5 container h-full mx-auto max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] text-white z-50'>
                             <div className=' sm:hidden md:flex sm:items-start sm:w-full sm:mt-10 sm:mb-10 hidden'>
                                 <Link to={"/news"} className=' flex cursor-pointer items-center justify-start hover:text-[#F97316]'>
                                     <ImArrowLeft className=' text-[24px] mr-5' />
@@ -125,7 +125,7 @@ export const Membership = () => {
                 formNo == 2 && <div>
                     <div className=' z-0 w-full relative before:absolute before:bg-[#003049] before:-z-[1] before:w-full before:h-[350px]'>
                         <img src={bgOverlay2} className="w-full h-[350px] bg-bottom bg-cover absolute" />
-                        <div className='pt-[70px] relative container h-full mx-auto max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] text-white z-50'>
+                        <div className='pt-[70px] relative container h-full mx-auto max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] text-white z-50'>
                             <div className=' h-[280px] relative'>
                                 <div onClick={prevForm} className='absolute bottom-4 left-2 flex cursor-pointer items-center hover:text-[#F97316]'>
                                     <ImArrowLeft className=' text-[24px] mr-5' />
@@ -134,7 +134,7 @@ export const Membership = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=' border-2 mt-20 rounded-lg h-full w-full bg-white mb-20 mx-auto container max-w-[340px] sm:max-w-[620px] lg:max-w-[900px]'>
+                    <div className=' border-2 mt-20 rounded-lg h-full w-full bg-white mb-20 mx-auto container max-w-[330px] sm:max-w-[620px] lg:max-w-[900px]'>
                         <h1 className=' w-full text-center text-[30px] font-extrabold py-4 bg-[#7AA3B2] text-white rounded-t-lg'>ຊ່ອງທາງການຊຳລະເງິນ</h1>
                         <div className=' bg-white p-16 rounded-lg'>
                             <form className=' w-full h-full rounded-lg'>
@@ -196,7 +196,7 @@ export const Membership = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=' border-2 mt-20 rounded-lg h-full w-full bg-white mb-20 mx-auto max-w-[340px] sm:max-w-[620px]'>
+                    <div className=' border-2 mt-20 rounded-lg h-full w-full bg-white mb-20 mx-auto max-w-[330px] sm:max-w-[620px]'>
                         <div className=' flex flex-col items-center py-10'>
                             <h1 className=' text-[26px] font-bold text-[#F97316]'>
                                 ລຳຖ້າການອະມຸມັດການຊຳລະເງິນຈາກແອດມິນ

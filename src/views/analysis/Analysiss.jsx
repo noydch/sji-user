@@ -17,7 +17,7 @@ export const Analysiss = () => {
         <Navbar>
             <div className=' z-0 w-full relative before:absolute before:bg-[#003049] before:-z-[1] before:w-full sm:before:h-[350px] before:h-[200px]'>
                 <img src={bgOverlay2} className="w-full h-[350px] bg-bottom bg-cover absolute hidden sm:block" />
-                <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                <div className='pt-[70px] relative container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                     <div className=' h-[150px] flex items-center justify-center sm:h-[280px] relative'>
                         <h1 className='text-[40px] sm:absolute bottom-4 left-2 flex sm:text-[50px] text-[#F97316] mb-3 font-bold'>ບົດວິເຄາະ</h1>
                     </div>
@@ -27,7 +27,7 @@ export const Analysiss = () => {
                             {
                                 dataCountries.map((item, index) => {
                                     return (
-                                        <Link to={`country/${item.id}`} key={index} className="xl:w-[270px] md:w-[220px] md:h-[160px] sm:w-[200px] sm:h-[180px] w-[170px] h-[100px] flex items-center z-0  justify-center relative 
+                                        <Link to={`country/${item.id}`} key={index} className="xl:w-[270px] md:w-[220px] md:h-[160px] sm:w-[200px] sm:h-[180px] w-[160px] h-[100px] flex items-center z-0  justify-center relative 
                                         rounded bg-center bg-cover shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]
                                             hover:scale-[1.02] duration-300 ease cursor-pointer
                                             before:absolute before:-z-[1] before:bg-black before:rounded before:opacity-30 before:content-['*] before:w-full before:h-full"

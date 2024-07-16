@@ -13,7 +13,7 @@ export const ArticleDetail = () => {
                 <div className=' z-0 w-full h-[200px] sm:h-[300px] relative before:absolute before:bg-[#003049] before:-z-[1] before:w-full 
                 before:h-[200px] sm:before:h-[300px]'>
                     <img src={bgOverlay2} className="w-full h-[350px] sm:h-[300px] bg-bottom bg-cover absolute sm:block hidden" />
-                    <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                    <div className='pt-[70px] relative container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                         <div className=' h-[150px] flex items-center justify-center sm:h-[200px] relative'>
                             <h1 className='text-[40px] sm:hidden md:text-[50px] font-bold'>
                                 ບົດຄວາມ
@@ -25,7 +25,7 @@ export const ArticleDetail = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' h-full w-full bg-white sm:mb-20 mx-auto max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
+                <div className=' h-full w-full bg-white sm:mb-20 mx-auto max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
                     <h1 className=' text-[24px] font-bold md:text-[30px] text-black sm:font-black md:pb-10 sm:pb-5 sm:pt-7 md:pt-7'>
                         TIPS CHOICE BEST AGENCY For <br /> House Decoration
                     </h1>

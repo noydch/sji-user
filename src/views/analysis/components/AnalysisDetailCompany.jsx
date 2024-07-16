@@ -122,7 +122,7 @@ export const AnalysisDetailCompany = () => {
                     item.companyName == cName.company && (
                         <div key={index} className=' z-0 w-full relative before:absolute before:bg-[#003049] before:-z-[1] before:w-full md:before:h-[350px] sm:before:h-[330px] before:h-[350px]'>
                             <img src={bgOverlay2} className="w-full hidden md:block h-[350px] bg-bottom bg-cover absolute" />
-                            <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                            <div className='pt-[70px] relative container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                                 <div className=' py-55 md:mt- sm:0 md:h-[280px] h-full md:relative flex flex-col items-center justify-center md:justify-end'>
                                     <div className='mb-5 md:mt-0 xl:absolute w-full xl:top-[50%] md:mb-5 xl:-translate-y-1/2 sm:left-2 flex sm:flex-row justify-center items-center gap-x-4 sm:text-[50px] text-[#F97316] font-bold'>
                                         <div className=' rounded-full bg-white p-4 h-[55px] w-[55px] sm:h-[80px] sm:w-[80px] flex justify-center items-center'>

@@ -40,7 +40,7 @@ export const CourseDetail = () => {
                     <img src={bgOverlay}
                         className=" xl:hidden hidden w-full h-[200px] absolute"
                     />
-                    <div className=' pt-[70px] relative flex items-center justify-center container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                    <div className=' pt-[70px] relative flex items-center justify-center container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                         <Link to={"/ourService/course"} className='absolute hidden bottom-5 left-2 cursor-pointer items-center hover:text-[#F97316]'>
                             <ImArrowLeft className=' text-[30px] mr-5' />
                             <h1 className='text-[40px]  sm:text-[50px]  font-bold'>ກັບຄືນ</h1>
@@ -48,7 +48,7 @@ export const CourseDetail = () => {
                         <h1 className=' text-[40px] sm:text-[50px] font-semibold'>ລາຍລະອຽດຄອສ</h1>
                     </div>
                 </div>
-                <div className=' h-full bg-white container mx-auto max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
+                <div className=' h-full bg-white container mx-auto max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
                     <div className=' py-10 sm:py-7'>
                         {
                             dataCourse.map((item) => (

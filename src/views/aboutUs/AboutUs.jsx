@@ -21,7 +21,7 @@ export const AboutUs = () => {
             <div>
                 <div className='h-full xl:h-screen z-0 w-full relative before:absolute sm:before:bg-[#003049] before:bg-[#002133]  before:-z-[1] before:w-full sm:before:h-[600px] md:before:h-screen before:h-full'>
                     <img src={bgOverlay} className="sm:block sm:h-[600px] xl:h-screen sm:object-cover hidden w-full h-screen absolute" />
-                    <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                    <div className='pt-[70px] relative container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                         <div className=' grid grid-cols-1 sm:gap-x-3 mt-5 gap-y-4 pb-5 sm:pb-0 sm:mt-0 sm:grid-cols-12 items-center h-full'>
                             <div className=' sm:col-span-6'>
                                 <h1 className='text-[34px] text-center sm:text-[40px] md:text-[50px] mb-3 font-bold'>ກ່ຽວກັບພວກເຮົາ</h1>
@@ -40,7 +40,7 @@ export const AboutUs = () => {
                     </div>
                 </div>
 
-                <div className=' pb-20 container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
+                <div className=' pb-20 container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
                     {/* ຜູ້ກໍ່ຕັ້ງ */}
                     <div className=' bg-white w-full sm:mt-10'>
                         <div className=' flex justify-center items-center'>

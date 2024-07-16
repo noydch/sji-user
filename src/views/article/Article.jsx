@@ -140,7 +140,7 @@ export const Article = () => {
         <Navbar>
             <div className='h-full sm:h-[800px] z-0 w-full relative before:absolute before:bg-[#003049] before:-z-[1] before:w-full  sm:before:h-[800px] md:before:h-full before:h-full'>
                 <img src={bgOverlay} className="w-full h-screen sm:h-[800px] hidden sm:block absolute" />
-                <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                <div className='pt-[70px] relative container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                     <div className=' flex flex-col mt-5 pb-5 sm:pb-0'>
                         <h1 className='text-[35px] text-[#F97316] sm:text-[40px] md:text-[50px] mb-3 font-bold'>ບົດຄວາມ</h1>
                         <h4 className=' uppercase text-[18px] sm:text-[24px] font-semibold mb-5'>
@@ -163,7 +163,7 @@ export const Article = () => {
                 </div>
             </div>
 
-            <div className=' pb-5 sm:pb-20 container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
+            <div className=' pb-5 sm:pb-20 container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
                 <div className=' py-4 sm:py-10'>
                     <div className=' grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-3 place-items-center sm:gap-7 md:gap-y-5'>
                         {

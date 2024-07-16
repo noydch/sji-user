@@ -21,7 +21,7 @@ export const News = () => {
                     <img src={bgOverlay}
                         className=" w-full h-screen sm:h-[650px] xl:h-screen object-cover absolute hidden sm:block"
                     />
-                    <div className=' pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                    <div className=' pt-[70px] relative container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                         <h1 className=' mt-10 sm:mt-0 sm:relative top-14 flex items-start sm:text-[35px] md:text-[40px] text-[30px] text-[#F97316] font-bold'>
                             {t('news.title')}
                         </h1>
@@ -30,7 +30,7 @@ export const News = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
+                <div className=' container mx-auto h-full max-w-[330px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl'>
                     <h1 className=' mt-10 sm:mb-7 mb-3 flex items-start md:text-[40px] sm:text-[30px] text-[28px] text-[#1F2937] font-bold'>
                         Lastest News
                     </h1>

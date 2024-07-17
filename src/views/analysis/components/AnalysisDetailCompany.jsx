@@ -122,7 +122,7 @@ export const AnalysisDetailCompany = () => {
                     item.companyName == cName.company && (
                         <div key={index} className=' z-0 w-full relative before:absolute before:bg-[#003049] before:-z-[1] before:w-full md:before:h-[350px] sm:before:h-[330px] before:h-[350px]'>
                             <img src={bgOverlay2} className="w-full hidden md:block h-[350px] bg-bottom bg-cover absolute" />
-                            <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                            <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                                 <div className=' py-55 md:mt- sm:0 md:h-[280px] h-full md:relative flex flex-col items-center justify-center md:justify-end'>
                                     <div className='mb-5 mt-3 sm:mt-0 md:mt-0 xl:absolute w-full xl:top-[50%] md:mb-5 xl:-translate-y-1/2 sm:left-2 flex sm:flex-row justify-center items-center gap-x-4 sm:text-[50px] text-[#F97316] font-bold'>
                                         <div className=' rounded-full bg-white p-4 h-[55px] w-[55px] sm:h-[80px] sm:w-[80px] flex justify-center items-center'>
@@ -134,7 +134,7 @@ export const AnalysisDetailCompany = () => {
                                             ບໍລິສັດ {item.companyName}
                                         </h1>
                                     </div>
-                                    <div className=' mb-5 flex items-center xl:flex-row md:flex-col flex-col gap-x-3'>
+                                    <div className=' mb-5 flex items-center md:w-full xl:flex-row md:flex-col flex-col gap-x-3'>
                                         <div className=' w-full md:w-[450px] relative md:mb-5 xl:mb-0'>
                                             <div className=' absolute top-[50%] -translate-y-1/2 left-1 text-[20px] text-[#F97316] border-[1.5px] border-[#F97316] w-[26px] h-[26px] flex items-center justify-center rounded-full '>
                                                 <IoSearchOutline />
@@ -145,7 +145,7 @@ export const AnalysisDetailCompany = () => {
                                             />
                                             <button className=' bg-[#F97316]  h-[35px] px-5 rounded-r-md right-0 absolute'>ຄົ້ນຫາ</button>
                                         </div>
-                                        <div className=' sm:flex xl:flex md:grid md:grid-cols-3 grid grid-cols-2 gap-2 mt-5 md:mt-0'>
+                                        <div className=' sm:flex xl:flex md:grid md:w-full md:grid-cols-4 lg:grid-cols-3 grid grid-cols-2 gap-2 mt-5 md:mt-0'>
                                             <button onClick={() => setShowAnalysis('ປະຫວັດບໍລິສັດ')} className={`md:h-[35px] py-2 md:py-0 px-5 md:text-[18px] text-[16px]  font-semibold rounded-md 
                                     ${showAnalysis === "ປະຫວັດບໍລິສັດ" ? 'bg-[#f97316]' : ' bg-white text-[#F97316]'}`}>
                                                 ປະຫວັດບໍລິສັດ
@@ -154,7 +154,7 @@ export const AnalysisDetailCompany = () => {
                                     ${showAnalysis === "ງົບການເງິນ" ? 'bg-[#f97316]' : ' bg-white text-[#F97316]'}`}>
                                                 ງົບການເງິນ
                                             </button>
-                                            <button onClick={() => setShowAnalysis('ອັດຕາສ່ວນທາງການເງິນ ແລະເງິນປັນຜົນ')} className={`md:h-[35px] py-2 md:py-0 px-2 md:text-[18px] text-[16px] font-semibold rounded-md 
+                                            <button onClick={() => setShowAnalysis('ອັດຕາສ່ວນທາງການເງິນ ແລະເງິນປັນຜົນ')} className={`md:h-[35px] md:col-span-2 lg:col-span-1 py-2 md:py-0 px-2 md:text-[18px] text-[16px] font-semibold rounded-md 
                                     ${showAnalysis === "ອັດຕາສ່ວນທາງການເງິນ ແລະເງິນປັນຜົນ" ? 'bg-[#f97316]' : 'bg-white text-[#F97316]'}`}>
                                                 ອັດຕາສ່ວນທາງການເງິນ ແລະເງິນປັນຜົນ
                                             </button>
@@ -1084,7 +1084,7 @@ export const AnalysisDetailCompany = () => {
 
                                 {
                                     showAnalysis === "ອັດຕາສ່ວນທາງການເງິນ ແລະເງິນປັນຜົນ" && <div className=' h-full w-full  bg-white mb-20'>
-                                        <div className='mt-10 sm:mt-16 sm:px-5 md:px-10'>
+                                        <div className='mt-10 sm:mt-16 sm:px-5 md:px-2 md:mt-10'>
                                             <AnalysisFinancial />
                                         </div>
 

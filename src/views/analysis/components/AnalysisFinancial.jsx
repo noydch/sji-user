@@ -80,28 +80,28 @@ export const AnalysisFinancial = () => {
     };
     return (
         <div className=''>
-            <div className='h-[250px] sm:h-[290px] sm:w-full md:h-[180px] shadow-md rounded-lg sm:px-5 pt-5'>
+            <div className='h-[250px] sm:h-[290px] sm:w-full md:h-[150px] lg:h-[160px] shadow-md rounded-lg sm:px-5 pt-5'>
                 <ul className='grid grid-cols-2 gap-y-3 sm:gap-y-4 sm:grid-cols-2 md:grid-cols-4 place-items-center md:gap-x-10'>
                     <li className='px-4 h-[100px] shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] rounded-lg text-black 
-                        md:w-[240px] w-[150px] sm:w-[240px] sm:h-[120px] flex items-center justify-center flex-col bg-[#BFDBFE]'>
+                        md:w-[160px] lg:w-[210px] w-[150px] sm:w-[240px] sm:h-[120px] flex items-center justify-center flex-col bg-[#BFDBFE]'>
                         <h1 className='text-[24px] font-bold'>0.25 USD</h1>
                         <hr className='border-1 mb-2 border-[#64748B] w-full' />
                         <p className='font-medium'>ຈຳນວນເງິນປັນຜົນ</p>
                     </li>
                     <li className='px-4 h-[100px] shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] rounded-lg text-black 
-                        md:w-[240px] w-[150px] sm:w-[240px] sm:h-[120px] flex items-center justify-center flex-col bg-[#F5D0FE]'>
+                        md:w-[160px] lg:w-[210px] w-[150px] sm:w-[240px] sm:h-[120px] flex items-center justify-center flex-col bg-[#F5D0FE]'>
                         <h1 className='text-[24px] font-bold'>0.5 %</h1>
                         <hr className='border-1 mb-2 border-[#64748B] w-full' />
                         <p className='font-medium text-center'>ອັດຕາເງິນປັນຜົນເປັນເປີເຊັນ</p>
                     </li>
                     <li className='px-4 h-[100px] shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] rounded-lg text-black 
-                        md:w-[240px] w-[150px] sm:w-[240px] sm:h-[120px] flex items-center justify-center flex-col bg-[#FECACA]'>
+                        md:w-[160px] lg:w-[210px] w-[150px] sm:w-[240px] sm:h-[120px] flex items-center justify-center flex-col bg-[#FECACA]'>
                         <h1 className='text-[24px] font-bold'>0.22 USD</h1>
                         <hr className='border-1 mb-2 border-[#64748B] w-full' />
                         <p className='font-medium'>ປັນຜົນຄາດຄະເນ</p>
                     </li>
                     <li className='px-4 h-[100px] shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] rounded-lg text-black 
-                        md:w-[240px] w-[150px] sm:w-[240px] sm:h-[120px] flex items-center justify-center flex-col bg-[#FED7AA]'>
+                        md:w-[160px] lg:w-[210px] w-[150px] sm:w-[240px] sm:h-[120px] flex items-center justify-center flex-col bg-[#FED7AA]'>
                         <h1 className='text-[24px] font-bold'>15 USD</h1>
                         <hr className='border-1 mb-2 border-[#64748B] w-full' />
                         <p className='font-medium'>ລາຄາເໝາະສົມ</p>

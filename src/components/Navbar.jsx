@@ -44,12 +44,12 @@ export const Navbar = ({ children }) => {
     return (
         <nav>
             <div className='bg-[#003049] fixed z-[1000] w-full shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]'>
-                <div className='flex items-center justify-between container mx-auto max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] 
+                <div className='flex items-center justify-between container mx-auto max-w-[340px] sm:max-w-[620px] md:max-w-[700px] lg:max-w-[900px] 
                 xl:max-w-6xl 2xl:max-w-7xl h-[70px] sm:h-[60px] xl:h-[70px]'>
                     <NavLink to={'/'}>
                         <img src={logo} alt="logo" className='w-12 sm:w-10 xl:w-14 2xl:w-[65px]' />
                     </NavLink>
-                    <ul className={`flex items-start sm:items-center xl:text-[20px] justify-start sm:justify-center md:gap-x-10 gap-x-2 sm:gap-x-2 w-[200px] sm:w-full md:justify-center  py-2 sm:px-0 px-2.5 text-white text-[18px] 
+                    <ul className={`flex items-start sm:items-center xl:text-[20px] justify-start sm:justify-center md:gap-x-5 lg:gap-x-10 gap-x-2 sm:gap-x-2 w-[200px] sm:w-full md:justify-center  py-2 sm:px-0 px-2.5 text-white text-[18px] 
                     sm:text-[14px] font-semibold ${isMenuVisible ? 'absolute gap-y-2 flex flex-col top-[72px] -right-0 bg-[#003652]  w-[220px] items-start' : 'hidden sm:flex'}`}>
                         {dataNav.map((list, index) => (
                             <NavLink

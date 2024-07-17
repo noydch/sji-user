@@ -19,13 +19,13 @@ export const AboutUs = () => {
     return (
         <Navbar>
             <div>
-                <div className='h-full xl:h-screen z-0 w-full relative before:absolute sm:before:bg-[#003049] before:bg-[#002133]  before:-z-[1] before:w-full sm:before:h-[600px] md:before:h-screen before:h-full'>
-                    <img src={bgOverlay} className="sm:block sm:h-[600px] xl:h-screen sm:object-cover hidden w-full h-screen absolute" />
-                    <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                <div className='h-full lg:h-[650px] xl:h-screen z-0 w-full relative before:absolute sm:before:bg-[#003049] before:bg-[#002133]  before:-z-[1] before:w-full sm:before:h-[600px] md:before:h-[600px] lg:before:h-[650px] xl:before:h-screen before:h-full'>
+                    <img src={bgOverlay} className="sm:block sm:h-[600px] lg:h-[650px] xl:h-screen sm:object-cover hidden w-full h-screen absolute" />
+                    <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                         <div className=' grid grid-cols-1 sm:gap-x-3 mt-5 gap-y-4 pb-5 sm:pb-0 sm:mt-0 sm:grid-cols-12 items-center h-full'>
-                            <div className=' sm:col-span-6'>
-                                <h1 className='text-[34px] text-center sm:text-[40px] md:text-[50px] mb-3 font-bold'>ກ່ຽວກັບພວກເຮົາ</h1>
-                                <img src={personImg} className=' rounded-lg h-[300px] w-full xl:w-[600px] sm:w-[500px] sm:h-[400px] object-cover' alt="" />
+                            <div className=' md:flex xl:items-start md:items-center md:justify-center md:flex-col sm:col-span-6'>
+                                <h1 className='text-[34px] text-center sm:text-[40px] md:mt-5 lg:text-[50px] mb-3 font-bold'>ກ່ຽວກັບພວກເຮົາ</h1>
+                                <img src={personImg} className='  rounded-lg h-[300px] md:h-[370px] md:w-[330px] lg:w-[380px] lg:h-[400px] w-full xl:w-[400px] sm:w-[500px] sm:h-[400px] object-cover' alt="" />
                             </div>
                             <div className=' sm:col-span-6'>
                                 <h2 className=' text-[30px] text-center sm:text-[40px] xl:text-[50px] mb-3 font-medium'>ຂໍ້ມູນຫຍໍ້</h2>

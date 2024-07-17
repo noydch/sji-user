@@ -164,13 +164,13 @@ export const CourseDetail = () => {
                                     <div className=' mt-14 '>
                                         <h4 className=' text-[#F97316] text-[20px] font-semibold'>ຄອສໃກ້ຄຽງ</h4>
                                         <div className=' overflow-x-auto'>
-                                            <ul className=' flex  w-max gap-x-10 pl-3 pr-4 py-4 sm:p-4'>
+                                            <ul className=' flex  w-max gap-x-10 md:gap-x-4 pl-3 pr-4 py-4 sm:p-4'>
                                                 {
                                                     dataCourse.map((item, index) => (
                                                         <li key={index}
-                                                            className='relative border-2 rounded-lg shadow-md h-[400px] w-[320px] xl:h-[420px] xl:w-[370px]'>
+                                                            className='relative border-2 rounded-lg shadow-md h-[400px] w-[320px] lg:w-[320px] md:h-[380px] md:w-[280px] xl:h-[420px] xl:w-[320px]'>
                                                             <img src={item.picture} alt=""
-                                                                className=' w-[320px] xl:w-full xl:h-[280px] h-[250px] object-cover rounded-lg'
+                                                                className=' w-[320px] xl:w-full md:h-[220px] lg:h-[240px] xl:h-[280px] h-[250px] object-cover rounded-lg'
                                                             />
                                                             <div className='  leading-[1.6] '>
                                                                 <div className=' flex justify-between p-3'>

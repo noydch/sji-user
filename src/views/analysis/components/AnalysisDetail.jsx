@@ -114,8 +114,8 @@ export const AnalysisDetail = () => {
                 dataCountries.map((item, index) => (
                     item.id == cid.id && <div className=' z-0 w-full relative before:absolute before:bg-[#003049] before:-z-[1] before:w-full md:before:h-[350px] before:h-[200px]'>
                         <img src={bgOverlay2} className="w-full hidden md:block h-[350px] bg-bottom bg-cover absolute" />
-                        <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
-                            <div className=' h-[150px] md:h-[300px] relative w-full flex items-center sm:justify-start'>
+                        <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
+                            <div className=' h-[150px] md:h-[300px] relative w-full flex items-center md:items-end sm:justify-start'>
                                 <div className=' sm:absolute w-full top-8 sm:bottom-4 xl:bottom-10 xl:items-end left-2 flex items-center md:justify-start justify-center gap-x-4 sm:text-[50px] text-[#F97316] mb-3 font-bold'>
                                     <div className=' rounded-full border-2 md:w-[70px] w-[60px]'>
                                         <img src={item.flag} alt="" className=' w-full h-full' />
@@ -126,21 +126,21 @@ export const AnalysisDetail = () => {
                                 </div>
 
                             </div>
-                            <div className=' h-full w-full bg-white mb-10 sm:mb-20'>
+                            <div className=' h-full w-full bg-white mb-10 sm:mb-20 md:mb-14'>
                                 <h1 className=' text-[35px] text-black font-extrabold text-center pb-4 sm:pb-10 sm:pt-7'>
                                     ເລືອກບໍລິສັດ
                                 </h1>
-                                <div className=' grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 place-items-center gap-y-3 sm:gap-y-5 md:gap-y-10 xl:gap-y-7'>
+                                <div className=' grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 place-items-center gap-y-3 sm:gap-y-5 md:gap-y-5 lg:gap-y-10 xl:gap-y-7'>
                                     {
                                         dataCompanies.map((item, index) => (
                                             <Link to={`${item.companyName}`} key={index}
-                                                className=' sm:py-3 sm:px-5 p-2 rounded-lg w-[150px] sm:w-[180px] lg:w-[210px] xl:w-[250px] flex flex-col gap-y-[2px] items-center
+                                                className=' sm:py-3 sm:px-5 md:px-3 lg:px-5 p-2 rounded-lg w-[150px] sm:w-[180px] md:w-[160px] lg:w-[210px] xl:w-[250px] flex flex-col gap-y-[2px] items-center
                                                 shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]'>
                                                 <div className=' flex flex-col justify-center items-center'>
                                                     <img src={item.picture} alt=""
-                                                        className=' w-full h-[80px] sm:w-[100px] sm:h-[100px] object-contain'
+                                                        className=' w-full h-[80px] md:h-[70px] md:w-[60px] lg:h-[100px] sm:w-[100px] sm:h-[100px] object-contain'
                                                     />
-                                                    <h2 className=' mt-2 text-[#F97316] text-[17px] sm:text-[17px] md:text-[20px] font-semibold text-center'>
+                                                    <h2 className=' mt-2 text-[#F97316] text-[17px] md:text-[16px] lg:text-[20px] font-semibold text-center'>
                                                         {item.companyName}
                                                     </h2>
                                                 </div>
@@ -153,7 +153,7 @@ export const AnalysisDetail = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className=' flex items-center justify-center mb-5 sm:mb-20 sm:mt-10'>
+                        <div className=' flex items-center justify-center mb-5 sm:mb-20 sm:mt-10 md:mt-3 lg:mt-10'>
                             <button onClick={handleBackPage}
                                 className=' bg-deep-orange-500 text-[18px]  px-14 py-1.5 rounded-md text-white'>ກັບຄືນໜ້າບໍລິສັດ</button>
                         </div>

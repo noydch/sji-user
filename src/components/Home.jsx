@@ -35,9 +35,9 @@ export const Home = () => {
                 <div className='sm:h-[700px] h-full xl:h-screen z-0 w-full relative before:absolute before:bg-[#002133] before:-z-[1] before:w-full before:h-[300px] sm:before:bg-[#002133] sm:before:h-[700px] xl:before:h-screen'>
                     <img src={bgOverlay} className="sm:w-full xl:h-screen sm:h-full sm:block absolute hidden" />
                     <div className='pt-[70px] mb-5 lg:mb-0 relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] 
-                    lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
-                        <div className='flex  md:mt-5 items-center justify-between'>
-                            <div className=' sm:flex sm:flex-col xl:flex-[3] lg:w-full sm:items-start sm:gap-y-4 sm:flex-[2]'>
+                    md:max-w-[700px] lg:max-w-[980px] xl:max-w-6xl text-white z-50'>
+                        <div className='flex md:mt-5 items-center justify-between'>
+                            <div className=' sm:flex sm:flex-col md:flex-[3] md:w-full xl:flex-[3] lg:w-full sm:items-start sm:gap-y-4 sm:flex-[2]'>
                                 <h1 className='text-[40px] mt-3 text-[#F97316] mb-1 font-bold'>
                                     ສອນເຈົ້າລົງທຶນ
                                 </h1>
@@ -52,14 +52,14 @@ export const Home = () => {
                                     </Link>
                                 </button>
                             </div>
-                            <div className='sm:flex-[] flex flex-col mt-5 gap-y-5 items-center'>
+                            <div className='sm:flex-[] md:flex-[2] flex flex-col mt-5 gap-y-5 items-center'>
                                 {windowWidth > 480 && <MosueWheelSlider />}
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className='w-full bg-white pb-10'>
-                    <div className='container mx-auto h-full max-w-[340px] sm:max-w-[620px] 
+                    <div className='container mx-auto h-full max-w-[340px] sm:max-w-[620px] md:max-w-[700px]
                     lg:max-w-[900px] xl:max-w-6xl'>
                         <div className='flex justify-center'>
                             <h2 className='text-[28px] sm:text-[34px] text-[#1F2937] font-extrabold pt-7 pb-0'>
@@ -109,7 +109,7 @@ export const Home = () => {
                         </div>
 
                         <div className='grid grid-cols-1 sm:grid-cols-2 place-items-center mt-10'>
-                            <div className='lg:hidden lg:w-full  md:flex flex justify-center'>
+                            <div className='lg:hidden lg:w-full  md:hidden flex justify-center'>
                                 <div className='hover:shadow-md cursor-pointer w-[350px] h-[370px] lg:w-full sm:w-[300px] sm:h-[340px] bg-[#457B9D] flex justify-center items-end rounded-xl'>
                                     <img src={aiyA} alt="" className='w-[300px] sm:w-[280px] sm:h-[320px] h-[350px] object-cover rounded-xl' />
                                 </div>
@@ -147,9 +147,9 @@ export const Home = () => {
                                 </div>
                             </div>
 
-                            <div className='hidden md:flex justify-center xl:w-full'>
-                                <div className='hover:shadow-md cursor-pointer w-[350px] h-[370px] lg:w-[380px] bg-[#457B9D] flex justify-center items-end rounded-xl'>
-                                    <img src={aiyA} alt="" className='w-[300px] h-[350px] object-cover rounded-xl' />
+                            <div className='hidden md:flex lg:flex justify-center xl:w-full'>
+                                <div className='hover:shadow-md cursor-pointer w-[350px] h-[370px] lg:w-full sm:w-[300px] sm:h-[340px] bg-[#457B9D] flex justify-center items-end rounded-xl'>
+                                    <img src={aiyA} alt="" className='w-[300px] sm:w-[280px] sm:h-[320px] h-[350px] object-cover rounded-xl' />
                                 </div>
                             </div>
                         </div>
@@ -162,8 +162,8 @@ export const Home = () => {
                                 </h2>
                             </div>
 
-                            <div className='grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-5 gap-y-8 sm:gap-5 place-items-center'>
-                                <div className='shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] cursor-pointer w-[300px] h-[420px] md:w-[290px] sm:w-[300px] sm:h-[380px] rounded-lg border border-[#CBD5E1] flex flex-col px-5'>
+                            <div className='grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-5 gap-y-8 sm:gap-5 md:gap-x-1 place-items-center'>
+                                <div className='shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] cursor-pointer w-[300px] h-[420px] md:w-[225px] lg:w-[290px] sm:w-[300px] sm:h-[380px] rounded-lg border border-[#CBD5E1] flex flex-col px-5'>
                                     <h2 className='text-center my-4 text-[24px] text-[#FB923C] font-bold'>Gold</h2>
                                     <p className='text-[18px] w-full mb-5'>{t('home.freePackageDesc')}</p>
                                     <ul className='list-disc text-[18px] list-inside'>
@@ -177,7 +177,7 @@ export const Home = () => {
                                         </button>
                                     </div>
                                 </div>
-                                <div className='shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] cursor-pointer w-[300px] h-[420px] md:w-[290px] sm:w-[300px] sm:h-[380px] border border-orange-400 bg-[#FFEDD5] rounded-lg flex flex-col px-5'>
+                                <div className='shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] cursor-pointer w-[300px] h-[420px] md:w-[225px] lg:w-[290px] sm:w-[300px] sm:h-[380px] border border-orange-400 bg-[#FFEDD5] rounded-lg flex flex-col px-5'>
                                     <h2 className='text-center my-4 text-[30px] text-[#FB923C] font-bold'>Free Package</h2>
                                     <p className='text-[18px] w-full mb-5'>{t('home.freePackageDesc')}</p>
                                     <ul className='list-disc text-[18px] list-inside'>
@@ -191,7 +191,7 @@ export const Home = () => {
                                         </button>
                                     </div>
                                 </div>
-                                <div className='shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] cursor-pointer w-[300px] h-[420px] md:w-[290px] sm:w-[300px] sm:h-[380px] rounded-lg border border-[#CBD5E1] flex flex-col px-5'>
+                                <div className='shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] cursor-pointer w-[300px] h-[420px] md:w-[225px] lg:w-[290px] sm:w-[300px] sm:h-[380px] rounded-lg border border-[#CBD5E1] flex flex-col px-5'>
                                     <h2 className='text-center my-4 text-[30px] text-[#FB923C] font-bold'>{t('home.premium')}</h2>
                                     <p className='text-[18px] w-full mb-5'>{t('home.freePackageDesc')}</p>
                                     <ul className='list-disc text-[18px] list-inside'>

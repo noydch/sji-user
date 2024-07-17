@@ -16,7 +16,7 @@ export const HistoryCompany = ({ companyName }) => {
         }
     ]
     return (
-        <div className=' shadow-md sm:p-8 p-4 sm:my-10'>
+        <div className=' shadow-md bg-white rounded-lg sm:p-8 p-4 sm:my-10'>
             {
                 dataHistory.map((item, index) => (
                     companyName == item.cName && (

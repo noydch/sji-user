@@ -23,11 +23,11 @@ export const Analysiss = () => {
                     </div>
                     <div className=' h-full w-full bg-white mb-10'>
                         <h1 className=' text-[35px] text-black font-extrabold text-center p-4 sm:pb-10 sm:pt-7'>ບົດວິເຄາະໃນຕ່າງປະເທດ</h1>
-                        <div className=' grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:gap-y-5 place-items-center gap-3 sm:gap-3'>
+                        <div className=' grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:gap-y-5 place-items-center gap-3 sm:gap-3'>
                             {
                                 dataCountries.map((item, index) => {
                                     return (
-                                        <Link to={`country/${item.id}`} key={index} className="xl:w-[270px] md:w-[220px] md:h-[160px] sm:w-[200px] sm:h-[180px] w-[160px] h-[100px] flex items-center z-0  justify-center relative 
+                                        <Link to={`country/${item.id}`} key={index} className="xl:w-[270px] md:h-[140px] lg:w-[220px] lg:h-[160px] sm:w-[200px] sm:h-[180px] w-[160px] h-[100px] flex items-center z-0  justify-center relative 
                                         rounded bg-center bg-cover shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]
                                             hover:scale-[1.02] duration-300 ease cursor-pointer
                                             before:absolute before:-z-[1] before:bg-black before:rounded before:opacity-30 before:content-['*] before:w-full before:h-full"

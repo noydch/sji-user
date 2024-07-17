@@ -70,10 +70,10 @@ export const Register = () => {
 
     return (
         <div className='grid grid-cols-1 md:grid-cols-12'>
-            <div className='col-span-8 md:col-span-7  w-full hidden md:block'>
+            <div className='col-span-8 md:col-span-6 lg:col-span-7  w-full hidden md:block'>
                 <img src={bgAuth} alt="" className='w-full h-screen object-cover' />
             </div>
-            <div className='col-span-4 md:col-span-5 w-full p-8 lg:py-8 lg:px-4'>
+            <div className='col-span-4 md:col-span-6 lg:col-span-5 w-full p-8 lg:py-8 lg:px-4'>
                 <div className='flex items-center gap-x-3'>
                     <img src={logo} alt="logo" className='w-7' />
                     <h2>ສອນເຈົ້າລົງທຶນ</h2>

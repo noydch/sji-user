@@ -16,7 +16,7 @@ import investingLogo from '../assets/images/investing-logo.jpg';
 export default function Footer() {
     return (
         <footer className=' w-full lg:h-[370px] lg:pt-5 bg-[#003049] relative z-[999] py-5'>
-            <div className=' h-full container mx-auto max-w-[340px] sm:max-w-[620px] lg:max-w-[900px]'>
+            <div className=' h-full container mx-auto max-w-[340px] sm:max-w-[620px] md:max-w-[700px] lg:max-w-[900px]'>
                 <div className=' flex justify-between px-2 gap-x-4 '>
                     <div className=' flex flex-col sm:flex-row lg:mb-5 items-center gap-x-4'>
                         <img src={midiLogo} alt=""

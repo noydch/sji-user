@@ -44,7 +44,7 @@ export const AboutUs = () => {
                     {/* ຜູ້ກໍ່ຕັ້ງ */}
                     <div className=' bg-white w-full sm:mt-10'>
                         <div className=' flex justify-center items-center'>
-                            <h2 className=' inline-block py-4 px-5 my-5 font-semibold text-[#374151] text-[40px] border-b-4 border-orange-600'>
+                            <h2 className=' inline-block py-4 md:py-2 md:mt-10 px-5 my-5 font-semibold text-[#374151] text-[40px] border-b-4 border-orange-600'>
                                 ຜຸ້ຮ່ວມກໍ່ຕັ້ງ
                             </h2>
                         </div>

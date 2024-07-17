@@ -13,6 +13,7 @@ import SliderHomeMB from '../views/Homepage/SliderHomeMB';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import useLanguageStore from '../store/languageStore';
+import SliderHomeMD from '../views/Homepage/SliderHomeMD';
 
 export const Home = () => {
     const { t, i18n } = useTranslation()
@@ -34,12 +35,11 @@ export const Home = () => {
             <div className='md:bg-[#003049] bg-[#002133]'>
                 <div className='sm:h-[700px] h-full xl:h-screen z-0 w-full relative before:absolute before:bg-[#002133] before:-z-[1] before:w-full before:h-[300px] sm:before:bg-[#002133] sm:before:h-[700px] xl:before:h-screen'>
                     <img src={bgOverlay} className="sm:w-full xl:h-screen sm:h-full sm:block absolute hidden" />
-                    <div className='pt-[70px] mb-5 lg:mb-0 relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] 
-                    md:max-w-[700px] lg:max-w-[980px] xl:max-w-6xl text-white z-50'>
+                    <div className='pt-[70px] mb-5 lg:mb-0 relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                         <div className='flex md:mt-5 items-center justify-between'>
-                            <div className=' sm:flex sm:flex-col md:flex-[3] md:w-full xl:flex-[3] lg:w-full sm:items-start sm:gap-y-4 sm:flex-[2]'>
+                            <div className=' sm:flex sm:flex-col md:flex-[2] md:w-full xl:flex-[3] lg:w-full sm:items-start sm:gap-y-4 sm:flex-[2]'>
                                 <h1 className='text-[40px] mt-3 text-[#F97316] mb-1 font-bold'>
-                                    ສອນເຈົ້າລົງທຶນ
+                                    {t('home.title')}
                                 </h1>
                                 <p className='text-[14px]'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa temporibus
@@ -67,7 +67,10 @@ export const Home = () => {
                             </h2>
                         </div>
                         <div className='w-full relative block h-full'>
-                            {windowWidth < 700 ? <SliderHomeMB /> : <SliderHome />}
+                            {windowWidth < 700 && <SliderHomeMB />}
+                            {windowWidth > 800 && <SliderHome />}
+                            {windowWidth < 800 && windowWidth > 700 && <SliderHomeMD />}
+
                         </div>
 
                         <div className='flex justify-center'>

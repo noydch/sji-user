@@ -138,8 +138,8 @@ export const Article = () => {
     }
     return (
         <Navbar>
-            <div className='h-full sm:h-[800px] z-0 w-full relative before:absolute before:bg-[#003049] before:-z-[1] before:w-full  sm:before:h-[800px] md:before:h-full before:h-full'>
-                <img src={bgOverlay} className="w-full h-screen sm:h-[800px] hidden sm:block absolute" />
+            <div className='h-full sm:h-[800px] md:h-[850px] z-0 w-full relative before:absolute before:bg-[#003049] before:-z-[1] before:w-full  sm:before:h-[800px] md:before:h-[850px] lg:before:h-full before:h-full'>
+                <img src={bgOverlay} className="w-full h-screen md:opacity-55 md:h-[850px] sm:h-[800px] hidden sm:block absolute" />
                 <div className='pt-[70px] relative container mx-auto h-full max-w-[340px] sm:max-w-[620px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-6xl text-white z-50'>
                     <div className=' flex flex-col mt-5 pb-5 sm:pb-0'>
                         <h1 className='text-[35px] text-[#F97316] sm:text-[40px] md:text-[50px] mb-3 font-bold'>ບົດຄວາມ</h1>

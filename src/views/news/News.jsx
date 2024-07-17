@@ -31,70 +31,70 @@ export const News = () => {
                     </div>
                 </div>
                 <div className=' container mx-auto h-full max-w-[340px] sm:max-w-[620px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-6xl'>
-                    <h1 className=' mt-10 sm:mb-7 mb-3 flex items-start md:text-[40px] sm:text-[30px] text-[28px] text-[#1F2937] font-bold'>
+                    <h1 className=' mt-10 sm:mb-7 mb-3 flex items-start lg:text-[35px] sm:text-[30px] text-[28px] text-[#1F2937] font-bold'>
                         Lastest News
                     </h1>
                     <div className=' grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-5 sm:place-items-center sm:gap-y-5 md:gap-y-4 mb-10'>
-                        <Link to={"/news/gold"} className=' sm:w-[290px] sm:h-[400px] md:h-[380px] md:w-[220px] xl:w-[270px] lg:w-[280px] xl:h-[430px] xl:p-3 w-[320px] lg:h-[420px] cursor-pointer shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-2 rounded-md'>
+                        <Link to={"/news/gold"} className=' sm:w-[290px] sm:h-[400px] md:h-[360px] md:w-[220px] xl:w-[270px] lg:w-[280px] xl:h-[430px] xl:p-3 w-[320px] lg:h-[420px] cursor-pointer shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-2 rounded-md'>
                             <img src={newsImg1} alt=""
                                 className=' w-[320px] md:h-[150px] lg:h-fit'
                             />
-                            <h4 className=' leading-[0.95] my-2 text-[20px] md:text-[22px] lg:text-[28px] font-bold'>
+                            <h4 className='leading-[1.1] my-2 text-[20px] md:text-[20px] lg:text-[20px] font-semibold'>
                                 10 TRENDS HOME DECORATION For Best House
                             </h4>
                             <p className=' text-[14px]'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
                         </Link>
-                        <div className=' sm:w-[290px] sm:h-[400px] md:h-[380px] md:w-[220px] xl:w-[270px] lg:w-[280px] xl:h-[430px] xl:p-3 w-[320px] lg:h-[420px] cursor-pointer shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-2 rounded-md'>
+                        <div className=' sm:w-[290px] sm:h-[400px] md:h-[360px] md:w-[220px] xl:w-[270px] lg:w-[280px] xl:h-[430px] xl:p-3 w-[320px] lg:h-[420px] cursor-pointer shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-2 rounded-md'>
                             <img src={newsImg2} alt=""
                                 className=' w-[320px] md:h-[150px] lg:h-fit'
                             />
-                            <h4 className=' leading-[0.95] my-2 text-[20px] md:text-[22px] lg:text-[28px] font-bold'>
+                            <h4 className=' leading-[1.1] my-2 text-[20px] md:text-[20px] lg:text-[20px] font-semibold'>
                                 HOW TO CLEANING OWN HOME For Best Cleaning
                             </h4>
                             <p className=' text-[14px]'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
                         </div>
-                        <div className=' sm:w-[290px] sm:h-[400px] md:h-[380px] md:w-[220px] xl:w-[270px] lg:w-[280px] xl:h-[430px] xl:p-3 w-[320px] lg:h-[420px] cursor-pointer shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-2 rounded-md'>
+                        <div className=' sm:w-[290px] sm:h-[400px] md:h-[360px] md:w-[220px] xl:w-[270px] lg:w-[280px] xl:h-[430px] xl:p-3 w-[320px] lg:h-[420px] cursor-pointer shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-2 rounded-md'>
                             <img src={newsImg3} alt=""
                                 className=' w-[320px] md:h-[150px] lg:h-fit'
                             />
-                            <h4 className=' leading-[0.95] my-2 text-[20px] md:text-[22px] lg:text-[28px] font-bold'>
+                            <h4 className=' leading-[1.1] my-2 text-[20px] md:text-[20px] lg:text-[20px] font-semibold'>
                                 US Stock Market Holidays 2024
                             </h4>
                             <p className=' text-[14px]'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
                         </div>
-                        <div className=' sm:w-[290px] sm:h-[400px] md:h-[380px] md:w-[220px] xl:w-[270px] lg:w-[280px] xl:h-[430px] xl:p-3 w-[320px] lg:h-[420px] cursor-pointer shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-2 rounded-md'>
+                        <div className=' sm:w-[290px] sm:h-[400px] md:h-[360px] md:w-[220px] xl:w-[270px] lg:w-[280px] xl:h-[430px] xl:p-3 w-[320px] lg:h-[420px] cursor-pointer shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-2 rounded-md'>
                             <img src={newsImg4} alt=""
                                 className=' w-[320px] md:h-[150px] lg:h-fit'
                             />
-                            <h4 className=' leading-[0.95] my-2 text-[20px] md:text-[22px] lg:text-[28px] font-bold'>
+                            <h4 className=' leading-[1.1] my-2 text-[20px] md:text-[20px] lg:text-[20px] font-semibold'>
                                 HOW TO DRAW HOME DESIGN For Consystency
                             </h4>
                             <p className=' text-[14px]'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
                         </div>
-                        <div className=' sm:w-[290px] sm:h-[400px] md:h-[380px] md:w-[220px] xl:w-[270px] lg:w-[280px] xl:h-[430px] xl:p-3 w-[320px] lg:h-[420px] cursor-pointer shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-2 rounded-md'>
+                        <div className=' sm:w-[290px] sm:h-[400px] md:h-[360px] md:w-[220px] xl:w-[270px] lg:w-[280px] xl:h-[430px] xl:p-3 w-[320px] lg:h-[420px] cursor-pointer shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-2 rounded-md'>
                             <img src={newsImg5} alt=""
                                 className=' w-[320px] md:h-[150px] lg:h-fit'
                             />
-                            <h4 className=' leading-[0.95] my-2 text-[20px] md:text-[22px] lg:text-[28px] font-bold'>
+                            <h4 className=' leading-[1.1] my-2 text-[20px] md:text-[20px] lg:text-[20px] font-semibold'>
                                 TIPS MODELING DECORATION HOME modern
                             </h4>
                             <p className=' text-[14px]'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
                         </div>
-                        <div className=' sm:w-[290px] sm:h-[400px] md:h-[380px] md:w-[220px] xl:w-[270px] lg:w-[280px] xl:h-[430px] xl:p-3 w-[320px] lg:h-[420px] cursor-pointer shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-2 rounded-md'>
+                        <div className=' sm:w-[290px] sm:h-[400px] md:h-[360px] md:w-[220px] xl:w-[270px] lg:w-[280px] xl:h-[430px] xl:p-3 w-[320px] lg:h-[420px] cursor-pointer shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-2 rounded-md'>
                             <img src={newsImg6} alt=""
                                 className=' w-[320px] md:h-[150px] lg:h-fit'
                             />
-                            <h4 className=' leading-[0.95] my-2 text-[20px] md:text-[22px] lg:text-[28px] font-bold'>
+                            <h4 className=' leading-[1.1] my-2 text-[20px] md:text-[20px] lg:text-[20px] font-semibold'>
                                 HOW TO IMPROVE HOME DESIGN For Future
                             </h4>
                             <p className=' text-[14px]'>

@@ -10,7 +10,7 @@ import Footer from './Footer';
 import useLanguageStore from '../store/languageStore';
 
 export const Navbar = ({ children }) => {
-    const activeLink = "text-[#F97316] font-bold xl:text-[20px] w-full sm:hover:bg-transparent px-3 md:px-0 sm:px-1 hover:bg-[#005887] py-2  sm:w-fit ";
+    const activeLink = "text-[#F97316] font-medium xl:text-[20px] w-full sm:hover:bg-transparent px-3 md:px-0 sm:px-1 hover:bg-[#005887] py-2  sm:w-fit ";
     const location = useLocation();
     const { t, i18n } = useTranslation();
     const { currentLanguage, changeLanguage } = useLanguageStore()
@@ -49,13 +49,13 @@ export const Navbar = ({ children }) => {
                     <NavLink to={'/'}>
                         <img src={logo} alt="logo" className='w-12 sm:w-10 xl:w-14 2xl:w-[65px]' />
                     </NavLink>
-                    <ul className={`flex items-start sm:items-center xl:text-[20px] justify-start sm:justify-center md:gap-x-5 lg:gap-x-10 gap-x-2 sm:gap-x-2 w-[200px] sm:w-full md:justify-center  py-2 sm:px-0 px-2.5 text-white text-[18px] 
-                    sm:text-[14px] font-semibold ${isMenuVisible ? 'absolute gap-y-2 flex flex-col top-[72px] -right-0 bg-[#003652]  w-[220px] items-start' : 'hidden sm:flex'}`}>
+                    <ul className={`flex items-start sm:items-center xl:text-[16px] justify-start sm:justify-center md:gap-x-5 lg:gap-x-10 gap-x-2 sm:gap-x-2 w-[200px] sm:w-full md:justify-center  py-2 sm:px-0 px-2.5 text-white text-[18px] 
+                    sm:text-[12px] ${isMenuVisible ? 'absolute gap-y-2 flex flex-col top-[72px] -right-0 bg-[#003652]  w-[220px] items-start' : 'hidden sm:flex'}`}>
                         {dataNav.map((list, index) => (
                             <NavLink
                                 to={list.path}
                                 key={index}
-                                className={isActivePath(list.path) ? activeLink : 'sm:text-[12px] w-full  xl:text-[20px] sm:px-0 px-3 hover:bg-[#005887] sm:hover:bg-transparent  py-2 sm:w-fit duration-300'}
+                                className={isActivePath(list.path) ? activeLink : 'sm:text-[12px] w-full  xl:text-[16px] sm:px-0 px-3 hover:bg-[#005887] sm:hover:bg-transparent  py-2 sm:w-fit duration-300'}
                                 onClick={() => setIsMenuVisible(false)}
                             >
                                 {t(list.title)}

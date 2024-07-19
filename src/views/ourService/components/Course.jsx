@@ -30,7 +30,7 @@ export const Course = () => {
   return (
     <Navbar>
       <div>
-        <div className="relative z-0 h-screen w-full before:absolute before:-z-[1] before:h-screen before:w-full before:bg-[#002133] sm:h-[300px] sm:before:h-[300px] md:h-[400px] md:before:h-[400px] md:before:bg-[#003049] xl:h-[500px] xl:before:h-[500px]">
+        <div className="relative z-0 h-[300px] w-full before:absolute before:-z-[1] before:h-[300px] before:w-full before:bg-[#002133] sm:h-[300px] sm:before:h-[300px] md:h-[400px] md:before:h-[400px] md:before:bg-[#003049] xl:h-[500px] xl:before:h-[500px]">
           <img
             src={bgOverlay}
             className="absolute hidden h-screen w-full md:block md:h-[400px] xl:h-[500px] xl:object-cover"
@@ -47,7 +47,7 @@ export const Course = () => {
             </Link>
             <div className="grid h-full place-items-center items-center pb-10 md:grid-cols-2 md:py-0 md:pb-10 lg:mt-8 xl:grid-cols-3 xl:py-5 2xl:grid-cols-3">
               <div className="xl:col-span-2">
-                <h1 className="mb-3 text-[34px] font-bold text-[#F97316] sm:text-[45px] md:mt-10 md:text-[34px]">
+                <h1 className="mb-0 mt-2 text-[28px] font-bold text-[#F97316] sm:mb-3 sm:mt-0 sm:text-[34px] md:mt-10 md:text-[34px]">
                   ບໍລິການຂອງພວກເຮົາ
                 </h1>
                 <p className="text-[14px] sm:text-[15px]">
@@ -57,7 +57,7 @@ export const Course = () => {
                   rem ipsum eaque consequatur assumenda explicabo!
                 </p>
               </div>
-              <div className="h mt-5 h-[300px] w-[300px] items-center gap-y-5 rounded-full border-4 border-white sm:hidden md:block md:h-[220px] md:w-[220px] lg:h-[250px] lg:w-[250px]">
+              <div className="mt-5 hidden h-[300px] w-[300px] items-center gap-y-5 rounded-full border-4 border-white sm:hidden md:block md:h-[220px] md:w-[220px] lg:h-[250px] lg:w-[250px]">
                 <img
                   src={serviceImg}
                   alt=""

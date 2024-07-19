@@ -37,10 +37,10 @@ export const CourseDetail = () => {
   return (
     <Navbar>
       <div>
-        <div className="relative z-0 h-[200px] w-full before:absolute before:-z-[1] before:h-[200px] before:w-full before:bg-[#003049] xl:h-full xl:before:h-full xl:before:bg-[#002133]">
+        <div className="relative z-0 h-[200px] xl:h-[240px] w-full before:absolute before:-z-[1] before:h-[200px] before:w-full before:bg-[#003049] xl:before:h-[240px] xl:before:bg-[#002133]">
           <img
             src={bgOverlay}
-            className="absolute hidden h-[200px] w-full xl:hidden"
+            className="absolute h-[200px] opacity-45 object-cover w-full xl:h-[240px]"
           />
           <div className="container relative z-50 mx-auto flex h-full max-w-[340px] items-center justify-center pt-[70px] text-white sm:max-w-[620px] lg:max-w-[900px] xl:max-w-6xl">
             <Link
@@ -61,8 +61,8 @@ export const CourseDetail = () => {
               (item) =>
                 item.id == id.id && (
                   <div>
-                    <div className="flex flex-col justify-between gap-2 sm:flex-row sm:gap-5">
-                      <div className="flex-[5] text-gray-800 sm:flex-[3]">
+                    <div className="flex flex-col justify-between gap-2 sm:flex-row sm:gap-5" >
+                      <div className="flex-[5] text-gray-800 sm:flex-[3] lg:flex-[5]">
                         <h1 className="mb-5 text-[28px] font-bold text-[#F97316]">
                           {item.title}
                         </h1>
@@ -134,35 +134,41 @@ export const CourseDetail = () => {
                         </div>
                       </div>
 
-                      <div className="flex-[2] leading-[2.6] text-gray-800">
+                      <div className="lg:flex-[2] xl:flex-[2] flex-[2] leading-[2.6] text-gray-800">
                         <p className="mb-5 font-medium">ເນື້ອຫາທັງໝົດ 1/25</p>
-                        <div className="rounded-lg border-2 p-4 leading-[1.8]">
+                        <div className="rounded-lg border-2 p-2 lg:p-2 xl:p-4  leading-[1.8]">
                           <p className="text-[17px] font-bold">ແນະນຳ</p>
                           <div className="text-[16px] font-semibold">
                             <div className="flex items-center justify-between">
-                              <div className="flex items-center gap-5">
-                                <Checkbox defaultChecked />
-                                <label htmlFor="">ແນະນຳກ່ຽວກັບມືໃໝ່</label>
+                              <div className="flex items-center lg:gap-x-2 xl:gap-x-5 md:gap-x-3 gap-5">
+                                <Checkbox defaultChecked
+                                  style={{ width: "20px", height: '20px' }}
+                                />
+                                <label htmlFor="" className=" lg:text-[18px] text-[16px]">ແນະນຳກ່ຽວກັບມືໃໝ່</label>
+                              </div>
+                              <span className="">2:30</span>
+                            </div>
+                            <div className="flex items-center justify-between">
+                              <div className="flex items-center lg:gap-x-2 xl:gap-x-5 md:gap-x-3 gap-5">
+                                <Checkbox
+                                  style={{ width: "20px", height: '20px' }}
+                                />
+                                <label htmlFor="" className=" lg:text-[18px] text-[16px]">ແນະນຳກ່ຽວກັບມືໃໝ່</label>
                               </div>
                               <span>2:30</span>
                             </div>
                             <div className="flex items-center justify-between">
-                              <div className="flex items-center gap-5">
-                                <Checkbox defaultChecked />
-                                <label htmlFor="">ແນະນຳກ່ຽວກັບມືໃໝ່</label>
-                              </div>
-                              <span>2:30</span>
-                            </div>
-                            <div className="flex items-center justify-between">
-                              <div className="flex items-center gap-5">
-                                <Checkbox defaultChecked />
-                                <label htmlFor="">ແນະນຳກ່ຽວກັບມືໃໝ່</label>
+                              <div className="flex items-center lg:gap-x-2 xl:gap-x-5 md:gap-x-3 gap-5">
+                                <Checkbox
+                                  style={{ width: "20px", height: '20px' }}
+                                />
+                                <label htmlFor="" className=" lg:text-[18px] text-[16px]">ແນະນຳກ່ຽວກັບມືໃໝ່</label>
                               </div>
                               <span>2:30</span>
                             </div>
                           </div>
                         </div>
-                        <div className="mt-10 rounded-lg border-2 p-4 leading-[2.5]">
+                        <div className="mt-10 rounded-lg border-2 p-2 lg:p-2 xl:p-4 leading-[2.5]">
                           <div>
                             <div className="flex items-center justify-between">
                               <h4 className="text-[20px] font-semibold text-red-500 sm:text-[24px]">
@@ -172,14 +178,14 @@ export const CourseDetail = () => {
                                 ອີກ 2 ມື້
                               </span>
                             </div>
-                            <h3 className="text-[24px] font-medium leading-[1] sm:text-[30px]">
+                            <h3 className="text-[24px] font-medium leading-[1] sm:text-[24px]">
                               ຈາກ{" "}
                               <span className='relative after:absolute after:left-[50%] after:top-[50%] after:h-[2px] after:w-full after:-translate-x-1/2 after:-translate-y-1/2 after:bg-black after:content-[""]'>
                                 300.000 KIP
                               </span>
                             </h3>
                             {/* FB923C */}
-                            <div className="mt-10 flex flex-col">
+                            <div className="mt-10  flex flex-col">
                               <FormBuyCourse />
                               <button className="mt-4 rounded-lg border border-[#FB923C] text-[18px] font-semibold text-[#FB923C]">
                                 ເພີ່ມລົງໃນກະຕ່າ

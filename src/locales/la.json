@@ -62,5 +62,31 @@
         "title":"ຂ່າວສານ",
         "learnMore":"ອ່ານເພີ່ມເຕີມ",
         "back":"ກັບຄືນ"
+      },
+      "analysis": {
+        "title": "ບົດວິເຄາະ",
+        "foreignAnalysis": "ບົດວິເຄາະໃນຕ່າງປະເທດ",
+        "selectCompany":"ເລືອກບໍລິສັດ",
+        "backToCompanies":"ກັບຄືນໜ້າບໍລິສັດ",
+        "companyName": "ບໍລິສັດ",
+        "searchPlaceholder": "ຄົ້ນຫາບໍລິສັດ...",
+        "searchButton": "ຄົ້ນຫາ",
+        "companyHistory": "ປະຫວັດບໍລິສັດ",
+        "picture":"ຮູບພາບບໍລິສັດ",
+        "financialStatements": "ງົບການເງິນ",
+        "financialRatiosAndDividends": "ອັດຕາສ່ວນທາງການເງິນ ແລະເງິນປັນຜົນ",
+        "viewGraph": "ເບິ່ງກຣາຟ",
+        "incomeStatement": "Income Statement",
+        "balanceSheet": "Balance Sheet",
+        "cashFlow": "Cash Flow",
+        "annual": "ປະຈຳປີ",
+        "currency": "ສະກຸນເງິນ: USD",
+        "totalRevenue": "ລາຍໄດ້ລວມ",
+        "basicDetails": "ລາຍລະອຽດພື້ນຖານ",
+        "grossProfit": "ກຳໄລຂັ້ນຕ່ຳ",
+        "details": "ລາຍລະອຽດ",
+        "operatingIncome": "ລາຍໄດ້ຈາກການດຳເນີນງານ",
+        "incomeBeforeTax": "ລາຍໄດ້ກ່ອນຫັກພາສີ",
+        "backToCompanyPage": "ກັບຄືນໜ້າບໍລິສັດ"
       }
   }

@@ -56,7 +56,7 @@ export const Navbar = ({ children }) => {
             />
           </NavLink>
           <ul
-            className={`flex w-[200px] items-start justify-start gap-x-2 px-2.5 py-2 text-[18px] text-white sm:w-full sm:items-center sm:justify-center sm:gap-x-0 sm:px-0 sm:text-[12px] md:justify-center md:gap-x-2 lg:gap-x-10 xl:text-[16px] ${isMenuVisible ? "absolute -right-0 top-[72px] flex w-[220px] flex-col items-start gap-y-2 bg-[#003652]" : "hidden sm:flex"}`}
+            className={`flex w-[200px] items-start justify-start gap-x-2 px-2.5 py-2 f text-[18px] text-white sm:w-full sm:items-center sm:justify-center sm:gap-x-0 sm:px-0 sm:text-[12px] md:justify-center md:gap-x-2 lg:gap-x-10 xl:text-[16px] ${isMenuVisible ? "absolute -right-0 top-[72px] flex w-[220px] flex-col items-start gap-y-2 bg-[#003652]" : "hidden sm:flex"}`}
           >
             {dataNav.map((list, index) => (
               <NavLink
@@ -65,7 +65,7 @@ export const Navbar = ({ children }) => {
                 className={
                   isActivePath(list.path)
                     ? activeLink
-                    : "w-full px-3 py-2 duration-300 hover:bg-[#005887] sm:w-fit sm:px-1.5 sm:text-[12px] sm:hover:bg-transparent xl:text-[16px]"
+                    : "w-full px-3 py-2 duration-300 hover:bg-[#005887] sm:w-fit f sm:px-1.5 sm:text-[12px] sm:hover:bg-transparent xl:text-[16px]"
                 }
                 onClick={() => setIsMenuVisible(false)}
               >
@@ -82,8 +82,8 @@ export const Navbar = ({ children }) => {
           </ul>
           <div className="flex gap-x-[6px] sm:gap-x-2 xl:gap-x-3">
             <Link
-              to={"/register"}
-              className="flex w-[90px] items-center justify-center rounded-md bg-[#FB923C] py-2 text-[14px] font-normal text-white sm:w-[70px] sm:rounded sm:py-[2px] sm:text-[14px] sm:font-normal md:w-[80px] md:rounded-md xl:w-[100px] xl:text-[18px]"
+              to={"/login"}
+              className="flex w-[90px] items-center justify-center rounded-md bg-[#FB923C] py-2 text-[14px] font-normal text-white sm:w-[70px] sm:rounded sm:py-[2px] sm:text-[14px] sm:font-normal md:w-[80px] md:rounded-md xl:w-[100px] xl:text-[16px]"
             >
               {t("navbar.login")}
             </Link>
@@ -97,7 +97,7 @@ export const Navbar = ({ children }) => {
                   src={selectedFlag}
                   alt=""
                 />
-                <p className="text-[14px] font-normal text-white sm:text-[12px] sm:font-medium xl:text-[17px]">
+                <p className="text-[14px] font-normal text-white sm:text-[12px] sm:font-normal xl:text-[17px]">
                   {t(
                     selectedFlag === flagLaos
                       ? "language.laos"

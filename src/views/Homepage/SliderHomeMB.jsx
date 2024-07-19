@@ -55,8 +55,8 @@ export default function SliderHomeMB() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="mt-5 h-full w-[360px] cursor-pointer shadow-md sm:h-[420px] sm:w-[450px]">
-            <div className="flex h-[390px] flex items-center justify-center w-full flex-col items-center rounded-lg bg-[#003049] px-7 sm:h-full">
-              <h3 className="mb-5 mt-7 text-[24px] font-semibold text-white sm:text-[28px]">
+            <div className=" h-[390px] flex justify-center w-full flex-col items-center rounded-lg bg-[#003049] px-7 sm:h-full">
+              <h3 className="mb-5 mt-0 text-[24px] font-semibold text-white sm:text-[28px]">
                 ຄຳແນະນຳຮຸ້ນລາວ
               </h3>
               <div className="mb-5 flex h-24 w-24 items-center justify-center rounded-full bg-white p-6 sm:h-28 sm:w-28">
@@ -77,8 +77,8 @@ export default function SliderHomeMB() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="mt-5 h-full w-[360px] cursor-pointer shadow-md sm:h-[420px] sm:w-[450px]">
-            <div className="flex h-[390px] flex items-center justify-center w-full flex-col items-center rounded-lg bg-[#003049] px-7 sm:h-full">
-              <h3 className="mb-5 mt-7 text-[24px] font-semibold text-white sm:text-[28px]">
+            <div className=" h-[390px] flex items-center justify-center w-full flex-col rounded-lg bg-[#003049] px-7 sm:h-full">
+              <h3 className="mb-5 mt-0 text-[24px] font-semibold text-white sm:text-[28px]">
                 ຄຳແນະນຳຮຸ້ນລາວ
               </h3>
               <div className="mb-5 flex h-24 w-24 items-center justify-center rounded-full bg-white p-6 sm:h-28 sm:w-28">

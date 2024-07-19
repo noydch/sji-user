@@ -53,7 +53,7 @@ export const Login = () => {
           <h2>ສອນເຈົ້າລົງທຶນ</h2>
         </div>
         <form
-          className="mt-10 w-full px-3 py-6 sm:px-5 md:px-4 lg:mt-5"
+          className="sm:mt-10 mt-5 w-full px-3 py-6 sm:px-5 md:px-4 lg:mt-5"
           onSubmit={handleSubmit}
         >
           <div className="mb-10 text-center">

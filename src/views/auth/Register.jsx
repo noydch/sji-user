@@ -79,7 +79,7 @@ export const Register = () => {
           <h2>ສອນເຈົ້າລົງທຶນ</h2>
         </div>
         <form
-          className="mt-7 w-full px-3 py-6 sm:px-5 lg:mt-5 lg:px-5"
+          className="sm:mt-7 mt-4 w-full px-3 py-6 sm:px-5 lg:mt-5 lg:px-5"
           onSubmit={handleSubmit}
         >
           <div className="mb-5">

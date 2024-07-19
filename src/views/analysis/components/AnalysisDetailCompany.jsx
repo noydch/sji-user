@@ -1037,9 +1037,12 @@ export const AnalysisDetailCompany = () => {
                                     </div>
                                 )}
 
+                                {/* candlestick */}
                                 {
                                     showAnalysis === 'ເບິ່ງກຣາຟ' && (
-                                        <GraphChart />
+                                        <div className=" my-10 sm:my-0">
+                                            <GraphChart />
+                                        </div>
                                     )
                                 }
                             </div>

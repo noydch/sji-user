@@ -156,7 +156,7 @@ export const AnalysisDetailCompany = () => {
                             <div className="container relative z-50 mx-auto h-full max-w-[340px] pt-[70px] text-white sm:max-w-[620px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-6xl">
                                 <div className="pt-0 flex h-full flex-col items-center justify-center sm:relative sm:h-[250px] md:h-[280px] md:mt-0 md:justify-center">
                                     <div className="mb-5 mt-3 flex w-full items-center justify-center gap-x-4 font-bold text-[#F97316] sm:absolute sm:left-[50%] sm:top-5 sm:mt-5 sm:-translate-x-1/2 sm:flex-row sm:justify-normal sm:text-[50px] md:top-14 md:mb-5 md:mt-0 lg:top-10">
-                                        <div className="flex h-[55px] w-[55px] items-center justify-center rounded-full bg-white p-4 sm:h-[50px] sm:w-[50px] sm:p-2">
+                                        <div className="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-white p-2 sm:h-[50px] sm:w-[50px] sm:p-2">
                                             <img
                                                 src={item.picture}
                                                 alt=""
@@ -175,10 +175,10 @@ export const AnalysisDetailCompany = () => {
                                             </div>
                                             <input
                                                 type="text"
-                                                className="h-[35px] w-full rounded-md py-1 pl-9 text-[16px] text-black outline-none placeholder:text-[14px] sm:text-[18px] sm:h-[40px] lg:w-[380px] xl:w-[600px] md:pl-10"
+                                                className="h-[40px] w-full rounded-md py-1 pl-9 text-[16px] text-black outline-none placeholder:text-[14px] sm:text-[18px] sm:h-[40px] lg:w-[380px] xl:w-[600px] md:pl-10"
                                                 placeholder={t("analysis.searchPlaceholder")}
                                             />
-                                            <button className="absolute right-0 h-[35px] rounded-r-md bg-[#F97316] px-5 sm:h-[40px]">
+                                            <button className="absolute right-0 h-[40px] rounded-r-md bg-[#F97316] px-5 sm:h-[40px]">
                                                 {t("analysis.searchButton")}
                                             </button>
                                         </div>

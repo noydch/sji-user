@@ -213,7 +213,9 @@ export const AnalysisDetailCompany = () => {
                                     </div>
                                 </div>
                                 {showAnalysis === "ປະຫວັດບໍລິສັດ" && (
-                                    <HistoryCompany companyName={item.companyName} />
+                                    <div className=" my-10 sm:my-0">
+                                        <HistoryCompany companyName={item.companyName} />
+                                    </div>
                                 )}
 
                                 {showAnalysis === "ງົບການເງິນ" && (

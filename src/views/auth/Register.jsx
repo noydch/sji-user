@@ -79,7 +79,7 @@ export const Register = () => {
           <h2>ສອນເຈົ້າລົງທຶນ</h2>
         </div>
         <form
-          className="mt-7 w-full px-10 py-6 sm:px-5 lg:mt-5 lg:px-5"
+          className="mt-7 w-full px-3 py-6 sm:px-5 lg:mt-5 lg:px-5"
           onSubmit={handleSubmit}
         >
           <div className="mb-5">
@@ -164,9 +164,10 @@ export const Register = () => {
           {errors.confirmPassword && (
             <p className="text-xs text-red-500">{errors.confirmPassword}</p>
           )}
-          <button className="mt-4 w-full rounded-lg bg-[#FF6500] py-2 font-semibold text-white">
+          <Link to={'/login'}
+            className="mt-4 flex items-center justify-center w-full rounded-lg bg-[#FF6500] py-2 font-semibold text-white">
             Register
-          </button>
+          </Link>
           <div className="relative mt-5 flex w-full items-center justify-center">
             <p className="absolute bg-white px-2 text-gray-500">or</p>
             <hr className="w-full border border-gray-300" />

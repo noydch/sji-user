@@ -8,7 +8,7 @@ const useLanguageStore = create((set) => ({
     set({ currentLanguage: lng });
 
     if (lng === "en") {
-      document.body.style.fontFamily = "Roboto,Noto sans Lao, sans-serif";
+      document.body.style.fontFamily = "Roboto, sans-serif";
     } else {
       document.body.style.fontFamily = "Noto sans Lao";
     }

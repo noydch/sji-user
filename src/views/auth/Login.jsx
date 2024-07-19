@@ -53,7 +53,7 @@ export const Login = () => {
           <h2>ສອນເຈົ້າລົງທຶນ</h2>
         </div>
         <form
-          className="mt-10 w-full px-2 py-8 sm:px-2 md:px-4 lg:mt-5"
+          className="mt-10 w-full px-3 py-6 sm:px-5 md:px-4 lg:mt-5"
           onSubmit={handleSubmit}
         >
           <div className="mb-10 text-center">
@@ -99,12 +99,12 @@ export const Login = () => {
             <Checkbox color="orange" />
             <label>ຈື່ຂ້ອຍ</label>
           </div>
-          <button
+          <Link to={'/'}
             type="submit"
-            className="w-full rounded-lg bg-[#FF6500] py-2 font-semibold text-white"
+            className="w-full flex items-center justify-center rounded-lg bg-[#FF6500] py-2 font-semibold text-white"
           >
             Login
-          </button>
+          </Link>
           <div className="relative mt-5 flex w-full items-center justify-center">
             <p className="absolute bg-white px-2 text-gray-500">or</p>
             <hr className="w-full border border-gray-300" />
